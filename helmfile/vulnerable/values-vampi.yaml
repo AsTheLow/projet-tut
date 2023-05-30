@@ -1,0 +1,6 @@
+vampi: 
+  name: vampi
+  ingress:
+    enabled: true
+    hosts:
+      - host: vulnerable.vampi.localhost

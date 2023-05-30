@@ -1,0 +1,11 @@
+vampi: 
+  name: vampi
+  ingress:
+    enabled: true
+    annotations:
+      nginx.ingress.kubernetes.io/enable-modsecurity: "true"
+      nginx.ingress.kubernetes.io/modsecurity-transaction-id: "$request_id"
+      nginx.ingress.kubernetes.io/modsecurity-snippet: |
+        SecRuleEngine On
+    hosts:
+      - host: modsec.vampi.localhost

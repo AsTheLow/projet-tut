@@ -1,0 +1,6 @@
+releases:
+  - name: demo
+    namespace: demo2
+    chart: ../
+values:
+- new-values.yaml

@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.vampi.name }}
+  labels:
+    app: vampi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vampi
+  template:
+    metadata:
+      labels:
+        app: vampi
+    spec:
+      containers:
+      - name: vampi
+        resources:
+          limits:
+            memory: 1Gi
+            cpu : 500m
+          requests:
+            memory: 100Mi
+            cpu : 50m
+        image: erev0s/vampi
+        ports:
+        - containerPort: 5000
+          name: http

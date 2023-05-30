@@ -1,0 +1,20 @@
+releases:  
+  # - name: crapi
+  #   namespace: modsec
+  #   chart: ../../helm/crapi/
+  #   values:
+  #     - values-crapi.yaml
+
+  - name: juice-shop
+    namespace: modsec
+    chart: ../../helm/juice-shop/
+    createNamespace: true
+    values:
+      - values-js.yaml
+
+  - name: vampi
+    namespace: modsec
+    chart: ../../helm/vampi/
+    createNamespace: true
+    values:
+      - values-vampi.yaml

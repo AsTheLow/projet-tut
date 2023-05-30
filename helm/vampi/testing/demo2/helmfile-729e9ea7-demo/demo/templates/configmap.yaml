@@ -1,0 +1,60 @@
+---
+# Source: demo/templates/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: maconfigmap
+data:
+  # property-like keys; each key maps to a simple value
+  index.html : |
+    <h1>Ea adipisci consequatur vel voluptatem quae. </h1>
+    <p>Lorem ipsum dolor sit amet. Et accusamus magnamNam voluptatem aut officia blanditiis est molestiae eligendi. Et voluptatem voluptatem qui porro voluptate <strong>Quo aliquam aut libero perspiciatis</strong> et corporis quia aut harum pariatur et saepe minima? </p>
+    <ol>
+      <li>Est amet possimus eum quas doloremque aut nemo voluptas. </li>
+      <li>Est nemo rerum ut rerum amet ea perferendis fugiat qui molestias pariatur. </li>
+    </ol>
+    <ul>
+      <li>Est quia facere et consequatur ipsum. </li>
+      <li>Aut perferendis iure aut assumenda voluptatem vel quos dolore est asperiores iusto. </li>
+      <li>Qui dolorem minima nam molestias nulla. </li>
+    </ul>
+
+    <dl>
+      <dt>
+        <dfn>Non voluptas sint. </dfn>
+      </dt>
+      <dd>Id necessitatibus facilis id tempora iusto et quia sunt qui delectus sequi. </dd>
+      <dt>
+        <dfn>Et maxime sunt et distinctio mollitia. </dfn>
+      </dt>
+      <dd>Hic laudantium culpa non quibusdam saepe cum eligendi quia nam pariatur placeat. </dd>
+      <dt>
+        <dfn>Vel commodi atque! </dfn>
+      </dt>
+      <dd>Non obcaecati fugit sit autem excepturi. </dd>
+      <dt>
+        <dfn>Qui dolorum expedita vel nisi blanditiis. </dfn>
+      </dt>
+      <dd>Quo reiciendis nisi aut sint internos. </dd>
+    </dl>
+
+    <pre>
+      <code>
+        &lt;!-- Aut atque labore! --&gt;
+        <br>
+        &lt;eaque&gt;A maxime libero et consequatur numquam.&lt;/eaque&gt;
+        <br>
+        &lt;omnis&gt;In minima adipisci.&lt;/omnis&gt;
+        <br>
+        &lt;eligendi&gt;Est modi illo et velit facere.&lt;/eligendi&gt;
+        <br>
+      </code>
+    </pre>
+
+    <h2>Aut fugit molestiae et sunt quia in sint doloremque. </h2>
+    <p>Vel minima esse qui corrupti doloresnon deserunt est impedit eligendi vel neque veritatis. Aut galisum velit <strong>Eos consequatur quo ipsa sunt nam asperiores magnam</strong> aut doloribus corporis et enim aliquam. Ad perspiciatis sapiente rem possimus omniseos totam non voluptatum aliquam. Et voluptatem harumUt nostrum eos atque rerum hic galisum autem non incidunt sint. </p>
+
+    <h3>Aut aliquam dicta vel numquam natus sed internos dignissimos. </h3>
+    <p>Et assumenda dolorem <em>Qui iste in sint delectus sit repudiandae galisum</em> qui inventore provident aut incidunt suscipit. Quo asperiores rerum sit internos fugit <a href="https://www.loremipzum.com" target="_blank">Qui assumenda rem magnam doloremque et impedit nobis</a>? </p>
+
+    <blockquote cite="https://www.loremipzum.com">Et quibusdam tempora et fugit molestias qui aperiam consequatur in enim iste. </blockquote>

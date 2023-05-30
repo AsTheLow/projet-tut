@@ -1,0 +1,20 @@
+releases:  
+  - name: crapi
+    namespace: vulnerable
+    chart: ../../helm/crapi
+    values:
+      - values-crapi.yaml
+
+  - name: juice-shop
+    namespace: vulnerable
+    chart: ../../helm/juice-shop/
+    createNamespace: true
+    values:
+      - values-js.yaml
+
+  - name: vampi
+    namespace: vulnerable
+    chart: ../../helm/vampi
+    createNamespace: true
+    values:
+      - values-vampi.yaml
