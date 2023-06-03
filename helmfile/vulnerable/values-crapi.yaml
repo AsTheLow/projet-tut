@@ -11,6 +11,8 @@ web:
     enabled: true
     hosts:
       - vulnerable.crapi.localhost
+    annotations:
+      nginx.ingress.kubernetes.io/enable-modsecurity: "false"
 identity:
   image: crapi/crapi-identity
   port: 8080
@@ -27,6 +29,8 @@ mailhog:
     enabled: true
     hosts:
       - vulnerable.mailhog.crapi.localhost
+    annotations:
+      nginx.ingress.kubernetes.io/enable-modsecurity: "false"
 mongodb:
   image: mongo
   version: 5.0

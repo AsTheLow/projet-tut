@@ -7,5 +7,6 @@ vampi:
       nginx.ingress.kubernetes.io/modsecurity-transaction-id: "$request_id"
       nginx.ingress.kubernetes.io/modsecurity-snippet: |
         SecRuleEngine On
+        Include /etc/nginx/owasp-modsecurity-crs/nginx-modsecurity.conf
     hosts:
       - host: modsec.vampi.localhost

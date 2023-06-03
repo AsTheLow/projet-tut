@@ -1,8 +1,8 @@
 kind: ClusterRole
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  namespace: crapo
-  name: waitfor-reader
+  namespace: {{ .Release.Namespace }}
+  name: waitfor-reader-{{ .Release.Namespace }}
 rules:
 - apiGroups: [""]
   resources: ["services","pods"]

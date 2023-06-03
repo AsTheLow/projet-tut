@@ -4,3 +4,6 @@ vampi:
     enabled: true
     hosts:
       - host: vulnerable.vampi.localhost
+    annotations:
+      nginx.ingress.kubernetes.io/enable-modsecurity: "false"        
+

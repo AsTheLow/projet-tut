@@ -1,9 +1,9 @@
 releases:  
-  # - name: crapi
-  #   namespace: modsec
-  #   chart: ../../helm/crapi/
-  #   values:
-  #     - values-crapi.yaml
+  - name: crapi
+    namespace: modsec
+    chart: ../../helm/crapi/
+    values:
+      - values-crapi.yaml
 
   - name: juice-shop
     namespace: modsec
