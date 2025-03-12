@@ -12,7 +12,7 @@ apiGatewayPassword:
 tlsEnabled: false
 
 waitForK8sResources:
-  image: groundnuty/k8s-wait-for:v1.3
+  image: groundnuty/k8s-wait-for:v1.7
   imagePullPolicy: IfNotPresent
 
 web:
