@@ -1,0 +1,13 @@
+{
+  "extends": ["config:recommended"],
+  "rangeStrategy": "bump",
+  "major": {
+    "automerge": true
+  },
+  "minor": {
+    "automerge": true
+  },
+  "patch": {
+    "automerge": true
+  }
+}
