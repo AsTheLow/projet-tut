@@ -5,15 +5,15 @@
   ],
   "rangeStrategy": "bump",
   "major": {
-    "automerge": true
+    "automerge": true,
     "automergeType": "pr"
   },
   "minor": {
-    "automerge": true
+    "automerge": true,
     "automergeType": "pr"
   },
   "patch": {
-    "automerge": true
+    "automerge": true,
     "automergeType": "pr"
   }
 
